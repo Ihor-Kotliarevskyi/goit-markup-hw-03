@@ -144,12 +144,51 @@ button {
 
 /* Header END */
 
+.all-descr-list {
+  display: flex;
+  gap: 24px;
+  padding-left: 156px;
+  padding-right: 156px;
+}
+
 .all-descr-list-item {
   width: calc((100% - 72px) / 4);
 }
 
+.team-title {
+  margin-top: 120px;
+  margin-bottom: 56px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  padding-left: 156px;
+  padding-right: 156px;
+}
+
 .team-list-item {
   width: calc((100% - 72px) / 4);
+  justify-content: center;
+  text-align: center;
+}
+
+.portfolio-title {
+  margin-top: 120px;
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+
+.portfolio-list-item {
 }
 
 .portfolio-list-item {
@@ -157,6 +196,7 @@ button {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
+  justify-content: center;
 }
 
 .header-navigation-list-link {
