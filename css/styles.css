@@ -13,9 +13,15 @@ body {
   margin-right: 0;
 }
 
-section {
+.section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.section img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 body,
@@ -186,9 +192,6 @@ button {
   column-gap: 24px;
   margin-left: 156px;
   margin-right: 156px;
-}
-
-.portfolio-list-item {
 }
 
 .portfolio-list-item {
