@@ -115,6 +115,7 @@ h6,
   display: flex;
   flex-direction: row;
   gap: 24px;
+  align-items: center;
 }
 
 /* Body START */
@@ -143,18 +144,15 @@ h6,
 .header-navigation-link,
 .header-navigation-list-link,
 .address-link {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .header-navigation-list {
   gap: 40px;
-  align-items: center;
 }
 
 .header-navigation-list-item {
   width: calc((100% - 80px) / 3);
-  padding: 24px 0;
 }
 
 .header-navigation-list-link {
@@ -222,17 +220,20 @@ address {
   display: none;
 }
 
+.all-descr {
+  padding: 120px 0;
+}
+
 .all-descr-list {
   display: flex;
   gap: 24px;
   padding-left: 156px;
   padding-right: 156px;
-  width: calc((100% - 72px) / 4);
 }
 
-/* .all-descr-list-item {
+.all-descr-list-item {
   width: calc((100% - 72px) / 4);
-} */
+}
 
 .all-descr-list-title {
   margin-bottom: 8px;
@@ -295,6 +296,7 @@ address {
 .container {
 }
 .footer-logo {
+  margin-bottom: 16px;
 }
 .span-bottom {
 }
