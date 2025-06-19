@@ -118,10 +118,6 @@ h6,
   align-items: center;
 }
 
-/* Body START */
-
-/* Header START */
-
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -160,7 +156,9 @@ h6,
 }
 
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
@@ -173,18 +171,9 @@ address {
   align-items: center;
 }
 
-.address-link:hover,
-.address-link:focus {
-  color: #404bbf;
-}
-
 .div-header {
   border-bottom: 1px solid #e7e9fc;
 }
-
-/* Header END */
-
-/* Main START */
 
 .hero {
   padding: 188px 0;
@@ -241,7 +230,7 @@ address {
 }
 
 .all-descr-list-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .all-descr-list-title {
@@ -266,7 +255,7 @@ address {
 }
 
 .team-list-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   justify-content: center;
   text-align: center;
   border-radius: 0px 0px 4px 4px;
