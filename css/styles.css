@@ -230,7 +230,7 @@ address {
 }
 
 .all-descr-list-item {
-  width: calc((100% - 72px) / 3);
+  width: calc((100% - 72px) / 4);
 }
 
 .all-descr-list-title {
@@ -255,7 +255,7 @@ address {
 }
 
 .team-list-item {
-  width: calc((100% - 72px) / 3);
+  width: calc((100% - 72px) / 4);
   justify-content: center;
   text-align: center;
   border-radius: 0px 0px 4px 4px;
