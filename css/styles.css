@@ -44,8 +44,8 @@ body,
 
 .container {
   max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
+  /* padding: 0 15px;
+  margin: 0 auto; */
 }
 
 .section img {
@@ -114,7 +114,6 @@ h6,
 .header-address-list {
   display: flex;
   flex-direction: row;
-  gap: 24px;
   align-items: center;
 }
 
@@ -145,6 +144,7 @@ h6,
 
 .header-navigation-list {
   gap: 40px;
+  margin-right: 332px;
 }
 
 .header-navigation-list-item {
@@ -179,6 +179,14 @@ address {
   padding: 188px 0;
 }
 
+.hero-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
@@ -195,6 +203,7 @@ address {
   letter-spacing: 0.04em;
   display: block;
   min-width: 169px;
+  max-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
@@ -224,9 +233,9 @@ address {
 
 .all-descr-list {
   display: flex;
+  justify-content: center;
   gap: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
+  margin: 0 156px;
 }
 
 .all-descr-list-item {
